@@ -1,0 +1,66 @@
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/background.jpg);
+}
+
+.header__mem {
+  margin: 0 auto;
+  max-width: 70%;
+  font-size: 2.6rem;
+  padding: 1rem 0 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mem__line {
+  width: 100%;
+  height: 0.1rem;
+  background-color: white;
+}
+
+
+
+
+
+
+
+.footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.footer__mem {
+  max-width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #030303;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-github {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
