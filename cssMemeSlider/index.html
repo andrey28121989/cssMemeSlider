@@ -13,22 +13,39 @@
   <div class="wrapper">
     <header class="header">
       <div class="header__mem">
-          <h1>cssMemeSlider</h1>
+          <h1>CSS Meme Slider</h1>
           <div class="mem__line"></div>
       </div>
     </header>
     <main class="main">
+      <div class="mem__wrapper">
+        <input class="mem__input" type="radio" id="mem1" name="meme" checked>
+        <input class="mem__input" type="radio" id="mem2" name="meme">
+        <input class="mem__input" type="radio" id="mem3" name="meme">
+        <input class="mem__input" type="radio" id="mem4" name="meme">
+        <input class="mem__input" type="radio" id="mem5" name="meme">
+        <div class="slider__wrapper">
+          <div class="slider__container">
+            <img class="slider__img" src="assets/image1.jpg" alt="mem1">
+            <img class="slider__img" src="assets/image2.jpg" alt="mem2">
+            <img class="slider__img" src="assets/image3.jpg" alt="mem3">
+            <img class="slider__img" src="assets/image4.jpg" alt="mem4">
+            <img class="slider__img" src="assets/image5.jpg" alt="mem5">
+          </div>
+        </div>
 
+
+      </div>
     </main>
     <footer class="footer">
       <div class="mem__line"></div>
       <div class="footer__mem">
           <a class="my__github" href="https://github.com/andrey28121989">
-              <img class="github-icon" src="assets/github.png" alt="Github Icon" width="26" height="26">
+              <img class="github__icon" src="assets/github.png" alt="Github Icon" width="26" height="26">
               <p>GitHub</p>
           </a>
           <p>2023</p>
-          <a href="https://rs.school/js/">
+          <a class="rsschool" href="https://rs.school/js/">
               <img src="assets/logo-rs.svg" alt="Rsschool Icon" width="45" height="35">
           </a>
       </div>
