@@ -58,8 +58,8 @@
 
 .slider__control {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  flex-direction: revert;
   padding: 0 1rem;
 }
 
@@ -218,9 +218,17 @@
 
 @media screen and (max-width: 54.85rem) {
   .slider__control {
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
+  }
+
+  .slider__text {
+    height: 100%;
+  }
+
+  .text {
+    font-size: 1.3rem;
   }
 }
   
