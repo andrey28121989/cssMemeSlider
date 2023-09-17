@@ -95,14 +95,14 @@
   width: 2rem;
   height: 2rem;
   border-radius: 50%;
-  border: 0.10rem solid blue;
+  border: 0.18rem solid blue;
   background-color: blue;
   transition: all 0.5s;
 }
 
 .slider__dot_label:hover .slider__dot_span {
   background-color: white;
-  border: 0.10rem solid white;
+  border: 0.18rem solid white;
 }
 
 .slider__dot_label:active .slider__dot_span {
@@ -129,6 +129,26 @@
   background-color: transparent;
 } 
 
+#mem1:checked ~ .slider__control .slider__dot_label:nth-of-type(1):hover .slider__dot_span {
+  background-color: transparent;
+} 
+
+#mem2:checked ~ .slider__control .slider__dot_label:nth-of-type(2):hover .slider__dot_span {
+  background-color: transparent;
+} 
+
+#mem3:checked ~ .slider__control .slider__dot_label:nth-of-type(3):hover .slider__dot_span {
+  background-color: transparent;
+} 
+
+#mem4:checked ~ .slider__control .slider__dot_label:nth-of-type(4):hover .slider__dot_span {
+  background-color: transparent;
+} 
+
+#mem5:checked ~ .slider__control .slider__dot_label:nth-of-type(5):hover .slider__dot_span {
+  background-color: transparent;
+} 
+
 #mem1:checked ~ .slider__control .slider__dot_label:nth-child(1):active .slider__dot_span {
   background-color: grey;
 }
@@ -148,6 +168,9 @@
 #mem5:checked ~ .slider__control .slider__dot_label:nth-child(5):active .slider__dot_span {
   background-color: grey;
 }
+
+
+
 
 #mem1:checked ~ .slider__wrapper .slider__container {
   transform: translateX(0);
