@@ -216,7 +216,7 @@
   transition: all 0.5s;
 }
 
-@media screen and (max-width: 54.85rem) {
+@media screen and (max-width: 48rem) {
   .slider__control {
     flex-direction: column-reverse;
     justify-content: center;
