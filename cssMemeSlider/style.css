@@ -240,6 +240,10 @@
 }
 
 @media screen and (max-width: 48rem) {
+  .wrapper {
+    padding: 0 3rem;
+  }
+
   .slider__control {
     flex-direction: column-reverse;
     justify-content: center;
